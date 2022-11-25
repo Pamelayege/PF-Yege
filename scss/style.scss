@@ -1,0 +1,89 @@
+/*/VARIABLES/*/
+
+$principal-color: #996508;
+$total-font: 'Roboto', sans-serif;
+$header-bcolor: #fcb73f;
+$measure: 2rem;
+$footer-color: rgb(221, 221, 221)
+    /*/MIXING /*/
+
+    @mixin name {}
+
+
+img {
+    max-width: 100%;
+}
+
+.container2 {
+    max-width: 960px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+header {
+    background-color: $header-bcolor;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: $medida;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: .8rem;
+    }
+}
+
+section {
+
+    .items {
+        margin: 30px auto 60px;
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: $medida;
+        margin-bottom: 0;
+        padding-top: 30px;
+        border-bottom: 1px solid black;
+        text-align: left;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .contacto {
+        margin: 30px auto 90px;
+
+    }
+
+    h4 {
+        padding-top: 9px;
+    }
+}
+
+
+footer {
+    background-color: $footer-color;
+    text-align: justify;
+
+    text {
+        font-size: 1rem;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+}
